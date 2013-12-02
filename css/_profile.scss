@@ -1,0 +1,77 @@
+/************************************************************************************** PROFILE/SCSS **/
+
+.profile {
+
+	.wrapper {
+		text-align: center;
+		width: 100%;
+	}
+
+	.new-inner-wrapper {
+		height: auto;
+		top: 15%;
+
+		.entypo {
+			display: block;
+			font-size: 20em;
+			line-height: 0.6em;
+			position: relative;
+		}
+
+		div {
+			display: block;
+			margin: 4rem 0 0 0;
+		}
+	}
+
+	.collection-pages, .collection-contributors, .draft-pages,
+	.library-books, .library-contributors {
+		display: inline-block;
+		font-family: Georgia, serif;
+		font-style: italic;
+		text-transform: lowercase;
+
+		span {
+			font-style: normal;
+			text-transform: none;
+		}
+	}
+
+	.collection-pages, .library-books {
+		&:after {
+			content: "\00a0\00b7";
+			font-weight: 700;
+		}
+	}
+
+	.like-collect, .edit-delete {
+		width: 100%; height: 48px;
+		margin: 0; padding: 2rem 0;
+		bottom: 3rem; right: 0;
+
+		background-color: rgba($black, 0.5);
+		position: absolute;
+		text-align: center;
+		z-index: 1;
+
+		li {
+			color: $white;
+			display: inline-block;
+			font-family: "entyporegular";
+			font-size: 3.4em;
+			line-height: 0;
+			margin: 0 1rem 0 0;
+			text-align: center;
+
+			&:last-child { margin: 0; }
+
+			a {
+				width: 100%; height: 100%;
+
+				color: $white;
+				display: block;
+			}
+		}
+	}
+
+}
