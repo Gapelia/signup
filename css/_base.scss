@@ -2,6 +2,8 @@
 
 /** [-] Reset *****************************************************************************************/
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic);
+
 * {
 	margin: 0; padding: 0;
 
@@ -93,7 +95,7 @@ $purple:		rgba(179, 86, 214, 1);	// #b356d6;
 
 /** [-] Mixins ****************************************************************************************/
 
-@mixin sans { font-family: "adelle-sans", Arial, sans-serif; }
+@mixin sans { font-family: "Source Sans Pro", Arial, sans-serif; }
 @mixin serif { font-family: "skolar", Georgia, serif; }
 
 @mixin unicode { font-family: Arial, Verdana, Geneva, sans-serif; }
