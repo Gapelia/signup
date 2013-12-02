@@ -92,12 +92,38 @@ header {
 /** MAIN CONTENT **************************************************************************************/
 
 #container {
-	width: 100%; height: 1500px; /**/
+	width: 100%; height: 500px;
 
 	background-color: #a49385;
 	position: relative;
-	top: 550px; /**/
+	top: 550px;
 	z-index: 10;
+
+	.split-left, .split-right {
+		position: absolute;
+	}
+
+	.split-left {
+		left: 0;
+		padding: 2rem 2rem 0 2rem;
+		width: 30%;
+	}
+
+	.split-right {
+		padding: 1.3rem 2rem 0 2rem;
+		right: 0;
+		width: 70%;
+	}
+
+	.video-container {
+		width: 100%; height: 459px;
+
+		background-color: $gray-ii;
+		border-radius: 5px;
+		padding: 1rem;
+
+		iframe { padding: 1rem; }
+	}
 }
 
 p, .cta {
