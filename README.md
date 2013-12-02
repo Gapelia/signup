@@ -1,4 +1,2 @@
 signup
 ======
-
-Splash + Sign up
