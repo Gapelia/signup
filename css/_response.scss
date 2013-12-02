@@ -1,0 +1,125 @@
+
+/************************************************************************************* RESPONSE/SCSS **/
+
+/* (min-width: 1151px) */
+
+@media all and (max-width: 1100px) {
+
+	/** FOOTER ******************************************************************************************/
+
+	footer {
+		height: 400px;
+
+		ul {
+			li {
+				margin: 0 0 1rem 0; padding: 0;
+
+				border: 0 !important;
+				display: block;
+			}
+		}
+	}
+
+}
+
+@media all and (max-width: 945px) {
+
+	/** HEADER ******************************************************************************************/
+
+	header {
+		p { width: 80%; }
+	}
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container {
+		.video-container { height: 359px; }
+	}
+
+}
+
+
+@media all and (max-width: 715px) {
+
+	/** HEADER ******************************************************************************************/
+
+	h3 { font-size: 1.4em; }
+
+	header {
+		height: 430px;
+
+		h1 {
+			width: 350px; height: 97px;
+
+			background-size: 350px 97px;
+			margin: 2rem auto 1rem;
+		}
+
+		p, .cta { font-size: 1em; }
+
+		.mobile { display: none; }
+	}
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container {
+		height: 520px;
+		top: 430px;
+
+		.split-left, .split-right {
+			display: block;
+			margin: 0;
+			position: relative;
+			text-align: center;
+			width: 100%;
+		}
+
+		.split-left { padding: 1rem 2rem 0 2rem; }
+		.split-right { padding: 0 2rem 1rem 2rem; }
+
+		p, .cta { font-size: 1em; }
+	}
+
+	/** FOOTER ******************************************************************************************/
+
+	footer {
+		height: 370px;
+		padding: 2rem 0 0 0;
+		top: 430px;
+
+		p { font-size: 1em; }
+	}
+
+}
+
+@media all and (max-width: 320px) {
+
+	header, #container {
+		h3 {
+			font-size: 1.1em;
+			line-height: 1.1;
+			margin: 0 auto 1rem;
+			text-align: center;
+			width: 80%;
+		}
+	}
+
+	/** HEADER ******************************************************************************************/
+
+	header {
+		h1 {
+			width: 200px; height: 56px;
+
+			background-size: 200px 56px;
+			margin: 1rem auto 0.5rem;
+		}
+	}
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container {
+		height: 260px;
+		.video-container { height: 120px; }
+	}
+
+}

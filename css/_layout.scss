@@ -1,18 +1,8 @@
 
 /*************************************************************************************** LAYOUT/SCSS **/
 
-* {
-	text-rendering: optimizeLegibility!important;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-
-	-webkit-font-smoothing: antialiased!important;
-}
-
 html, body {
 	width: 100%; height: 100%;
-}
-
-html {
 }
 
 body {
@@ -99,9 +89,7 @@ header {
 	top: 550px;
 	z-index: 10;
 
-	.split-left, .split-right {
-		position: absolute;
-	}
+	.split-left, .split-right { position: absolute; }
 
 	.split-left {
 		left: 0;
