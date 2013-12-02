@@ -358,6 +358,7 @@
 
 		<!--/ scripts /-->
 		<script src="scripts/onboard/g.money.js"></script>
+		<script src="scripts/onboard/imgLiquid.js"></script>
 
 		<!--/ scripts/layout-scroller /-->
 		<script src="scripts/onboard/jquery.mousewheel.js"></script>
@@ -388,6 +389,18 @@
 
 				});
 
+			});
+		</script>
+
+		<script>
+			$(function() {
+				$(".library").imgLiquid({ fill: true });
+			});
+		</script>
+
+		<script>
+			$(".library button").click(function () {
+				$(this).text("Subscribed!").css("background-color", "#4cd964");
 			});
 		</script>
 		<!--//scripts /-->
