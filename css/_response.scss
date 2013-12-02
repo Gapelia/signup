@@ -1,8 +1,6 @@
 
 /************************************************************************************* RESPONSE/SCSS **/
 
-/* (min-width: 1151px) */
-
 @media all and (max-width: 1100px) {
 
 	/** FOOTER ******************************************************************************************/
@@ -37,7 +35,6 @@
 	}
 
 }
-
 
 @media all and (max-width: 715px) {
 
@@ -92,7 +89,7 @@
 
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
 
 	header, #container {
 		h3 {
@@ -119,7 +116,12 @@
 
 	#container {
 		height: 260px;
-		.video-container { height: 120px; }
+
+		.video-container {
+			height: 120px;
+
+			iframe { padding: 0.5rem; }
+		}
 	}
 
 }
