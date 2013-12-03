@@ -20,6 +20,10 @@
 
 }
 
+@media all and (max-width: 1024px) {
+	header { background-position: 0 0; }
+}
+
 @media all and (max-width: 945px) {
 
 	/** HEADER ******************************************************************************************/
@@ -30,9 +34,27 @@
 
 	/** MAIN CONTENT ************************************************************************************/
 
-	#container {
+	#container-01 {
 		.video-container { height: 359px; }
 	}
+
+}
+
+@media all and (max-width: 800px) {
+
+	/** HEADER ******************************************************************************************/
+
+	header {
+		background-image: url("../images/bg-05.jpg");
+		height: 584px;
+
+		h1 { margin: 1rem auto 1rem; }
+		.cta { margin: -1rem 0 0 0; }
+	}
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container-01, #container-02, footer { top: 484px; }
 
 }
 
@@ -48,6 +70,7 @@
 		h1 {
 			width: 350px; height: 97px;
 
+			background-position: 0 0;
 			background-size: 350px 97px;
 			margin: 2rem auto 1rem;
 		}
@@ -59,10 +82,14 @@
 
 	/** MAIN CONTENT ************************************************************************************/
 
-	#container {
+	#container-01, #container-02 {
 		height: 520px;
 		top: 430px;
 
+		p, .cta { font-size: 1em; }
+	}
+
+	#container-01 {
 		.split-left, .split-right {
 			display: block;
 			margin: 0;
@@ -73,8 +100,6 @@
 
 		.split-left { padding: 1rem 2rem 0 2rem; }
 		.split-right { padding: 0 2rem 1rem 2rem; }
-
-		p, .cta { font-size: 1em; }
 	}
 
 	/** FOOTER ******************************************************************************************/
@@ -89,9 +114,26 @@
 
 }
 
+@media all and (max-width: 600px) {
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container-02 {
+		height: 540px !important;
+
+		ul {
+			li {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+
+}
+
 @media all and (max-width: 425px) {
 
-	header, #container {
+	header, #container-01, #container-02 {
 		h3 {
 			font-size: 1.1em;
 			line-height: 1.1;
@@ -114,14 +156,21 @@
 
 	/** MAIN CONTENT ************************************************************************************/
 
-	#container {
-		height: 260px;
+	#container-01, #container-02 { height: 260px; }
 
+	#container-01 {
 		.video-container {
 			height: 120px;
-
 			iframe { padding: 0.5rem; }
 		}
 	}
+
+}
+
+@media all and (max-width: 320px) {
+
+	/** MAIN CONTENT ************************************************************************************/
+
+	#container-02 { height: 720px !important; }
 
 }
