@@ -22,6 +22,35 @@
 			opacity: 0.6;
 			position: absolute;
 		}
+
+		.button-wrapper {
+			bottom: 5%;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+			z-index: 1;
+		}
+
+		button {
+			margin: 0 auto; padding: 0.5rem;
+
+			background-color: rgba($white, 0.3);
+			border: 3px solid $black;
+			border-radius: 0;
+			color: $black;
+			cursor: pointer;
+			font-weight: 700;
+			position: relative;
+			text-transform: uppercase;
+			transition: all 0.2s ease;
+			z-index: 2;
+
+			&:hover {
+				border: 3px solid $white;
+				color: $white;
+				opacity: 1;
+			}
+		}
 	}
 
 	.user-bg {
@@ -81,6 +110,7 @@
 			display: block;
 		}
 
+		/*
 		button {
 			margin: 0 auto; padding: 0.5rem 1rem;
 
@@ -96,6 +126,7 @@
 
 			&:hover { padding: 0.5rem 1.5rem; }
 		}
+		*/
 	}
 
 	/* End User Code */
