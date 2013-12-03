@@ -12,7 +12,6 @@ body {
 	font-size: 16px;
 	overflow-x: hidden;
 	position: relative;
-	text-rendering: optimizeLegibility;
 }
 
 ::selection {
@@ -40,7 +39,7 @@ header {
 		width: 400px; height: 111px;
 
 		background-image: url("../images/logo.png");
-		background-size: 400px 111px; /* 600px 167px */
+		background-size: 400px 111px;
 		margin: 4rem auto 1rem;
 
 		@include hide-text;
@@ -117,9 +116,7 @@ header {
 	}
 }
 
-#container-01 {
-	background-color: #a49385;
-}
+#container-01 { background-color: #a49385; }
 
 #container-02 {
 	background-color: #cc9e61;
@@ -132,9 +129,7 @@ header {
 			width: 30%;
 			vertical-align: top;
 
-			&:last-child {
-				margin: 0;
-			}
+			&:last-child { margin: 0; }
 		}
 	}
 }
@@ -144,13 +139,9 @@ p, .cta {
 	line-height: 1.5;
 }
 
-.cta {
-}
-
 /** FOOTER ********************************************************************************************/
 
 footer {
-	/* background-image: url("../images/bg-02.jpg"); */
 	background-color: #56606c;
 	color: $white;
 	height: 330px;
