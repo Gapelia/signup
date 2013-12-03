@@ -30,6 +30,15 @@
 		&:hover { padding: 0.5rem 1.5rem; }
 	}
 
+	#user-panel {
+		background-color: $gray-i;
+		float: left;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		width: 25%;
+	}
+
 	#header-message {
 		width: 97.7%; height: auto;
 		margin: 0 0 1rem 1rem; padding: 1rem 0 0.5rem 0;

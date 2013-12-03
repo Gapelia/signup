@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<title>Welcome to Gapelia!</title>
+
+		<!--/
+			 ______   ______   ______  ______   __       __   ______    
+			/\  ___\ /\  __ \ /\  == \/\  ___\ /\ \     /\ \ /\  __ \   
+			\ \ \__ \\ \  __ \\ \  _-/\ \  __\ \ \ \____\ \ \\ \  __ \  
+			 \ \_____\\ \_\ \_\\ \_\   \ \_____\\ \_____\\ \_\\ \_\ \_\ 
+				\/_____/ \/_/\/_/ \/_/    \/_____/ \/_____/ \/_/ \/_/\/_/ 
+
+				01000111011000010111000001100101011011000110100101100001
+
+		/-->
+
+		<meta name="author" content="Gapelia"/>
+		<meta name="description" content="Better stories, together."/>
+		<meta name="keywords" content="Gapelia, storytelling, lifestyle, story, creator, travel, pulse, art, wow, life, flow, wonder, dimension"/>
+
+		<link href="css/style.css" rel="stylesheet"/>
+		<link href="images/favicon.png" rel="shortcut icon"/>
+
+		<!--* if lt IE 9 *>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<!* endif *-->
+
+		<script src="scripts/onboard/modernizr.custom.js"></script>
+		<script src="scripts/jquery-2.0.3.min.js"></script>
+
+		<script src="scripts/onboard/nprogress.js"></script>
+
+	</head>
+
+	<body class="app profile">
+
+		<div id="user-panel">
+			<div class="user-avatar">
+				<img src="images/onboard/users/11.jpg"/>
+			</div>
+
+			<div class="user-data">
+				<h2>*USERNAME*</h2>
+
+				<span contenteditable="true">Write a short bio here</span>
+			</div>
+
+			<div class="user-bg">
+				<img src="images/onboard/space-bb.jpg"/>
+			</div>
+		</div>
+
+		<div id="the-rest">
+			<p>Upload a cover photo<br/>and write your bio</p>
+			<button>Ready to go</button>
+		</div>
+
+		<!--/ scripts /-->
+		<script src="scripts/onboard/g.money.js"></script>
+		<script src="scripts/onboard/imgLiquid.js"></script>
+
+		<!--/ scripts/layout-scroller /-->
+		<script src="scripts/onboard/jquery.mousewheel.js"></script>
+		<script src="scripts/onboard/jquery.mCustomScrollbar.js"></script>
+
+		<script>
+			$('[contenteditable="true"]').click(function () {
+				$(this).text("");
+			});
+		</script>
+		<!--//scripts /-->
+
+	</body>
+
+</html>
